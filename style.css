@@ -1,21 +1,3 @@
-/*
-FONT-FAMILY STACK:
-
-Helvetica, Arial, sans-serif
-
-COLORS:
-
-red:    #BA3610
-orange: #E57727
-blue:   #278A96
-black:  #132226
-brown:  #262425
-white:  #F5FFEB
-*/
-
-/*************************/
-/**** GENERIC STYLES *****/
-/*************************/
 .clearfix:after {
     content:"";
     display:block;
@@ -27,6 +9,7 @@ body{
     line-height: 1.6;
     margin: 0;
     padding-top: 20px;
+
 }
 img{
     max-width: 100%;
@@ -36,7 +19,7 @@ img{
 }
 .wrapper{
     background-color: #F5FFEB;
-    
+
     /** TODO 1: Center the site on the screen and style it to match the mockup **/
 }
 
@@ -56,17 +39,29 @@ flex containers to make their children flex items
     background-color: #262425;
     padding: 20px;
 
+
+
     /* #site_header styles here */
 }
 #logo{
     /* #logo styles here */
 }
 #main_nav{
-    /* #main_nav styles here */
+    display: flex;
+    align-content: flex-end;
+
+    flex-direction: row;
+
+
+
 }
 #main_nav a{
+    display: flex;
     background-color: #E57727;
-    /* #navigation button styles here */
+
+
+
+
 }
 #main_nav a:hover{
     background-color: #BA3610;
@@ -90,7 +85,7 @@ flex containers to make their children flex items
 #call_to_action h1, #call_to_action p{
     color: white;
 }
-#call_to_action a{   
+#call_to_action a{
     background-color: #E57727;
     display: inline-block;
     padding: 12px 18px;
@@ -100,7 +95,7 @@ flex containers to make their children flex items
 }
 #call_to_action a:hover{
     background-color: #278A96;
-} 
+}
 
 /***************************/
 /**** FEATURED STYLES ******/
